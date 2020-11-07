@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageConfiguration xmlns="http://www.microsoft.com/schemas/dcm/configuration/2008">
+  <Execution>
+    <Package Path="%windir%\diagnostics\system\PCW" />
+    <Name>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-1</Name>
+    <Description>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-2</Description>
+    <Icon>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-1001</Icon>
+  </Execution>
+
+  <Index>
+    <Id>PCWDiagnostic</Id>
+    <RequiresAdminPrivileges>false</RequiresAdminPrivileges>
+    <PrivacyUrl>http://go.microsoft.com/fwlink/?LinkID=190175</PrivacyUrl>
+    <Version>1.0</Version>
+    <PublisherName>Microsoft Corporation</PublisherName>
+    <Category>@%windir%\system32\DiagCpl.dll,-407</Category>
+    <Keyword>@%windir%\system32\DiagCpl.dll,-20</Keyword>
+    <Keyword>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-300</Keyword>
+    <Keyword>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-301</Keyword>
+    <Keyword>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-302</Keyword>
+    <Keyword>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-303</Keyword>
+    <Keyword>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-304</Keyword>
+    <Keyword>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-305</Keyword>
+    <Keyword>@%windir%\diagnostics\system\PCW\DiagPackage.dll,-306</Keyword>
+  </Index>
+</PackageConfiguration>
